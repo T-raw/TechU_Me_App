@@ -13,5 +13,14 @@
     <string name="Sausuage">Sausage</string>
     <string name="Cbsandwich">Club Sandwich</string>
     <string name="finfries">French Fries</string>
+    <string name="chknwngz">Wings</string>
+    <string name="hamburger">Hamburger</string>
+    <string name="rice">Rice</string>
+    <string name="cake">Cake</string>
+    <string name="icecream">Ice Cream</string>
+    <string name="brownie">Brownie</string>
+    <string name="nachos">Nachos</string>
+    <string name="shrimp">Shrimp</string>
+    <string name="title_activity_done_menu">DoneMenu</string>
 
 </resources>
