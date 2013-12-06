@@ -26,6 +26,10 @@
             android:name="com.example.focusapp.DoneMenu"
             android:label="@string/title_activity_done_menu" >
         </activity>
+        <activity
+            android:name="com.example.focusapp.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
     </application>
 
 </manifest>
