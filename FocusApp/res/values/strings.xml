@@ -27,5 +27,8 @@
     <string name="subtotal">Subtotal</string>
     <string name="tax">Tax</string>
     <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>
