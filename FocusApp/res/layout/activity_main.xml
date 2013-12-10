@@ -10,13 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-
-    <SearchView
-        android:id="@+id/searchView1"
-        android:layout_width="186dp"
-        android:layout_height="wrap_content" >
-    </SearchView>
-
     <LinearLayout
         android:id="@+id/LinearLayout1"
         android:layout_width="match_parent"
@@ -24,73 +17,57 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal" >
 
-        <HorizontalScrollView
-            android:id="@+id/horizontalScrollView2"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0.14" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+            android:orientation="horizontal" >
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="107dp"
-                android:orientation="horizontal" >
+            <Button
+                android:id="@+id/button3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Toast" />
 
-                <Button
-                    android:id="@+id/button3"
-                    style="?android:attr/buttonStyleSmall"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/Toast" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/BLT" />
 
-                <Button
-                    android:id="@+id/button7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/BLT" />
+            <Button
+                android:id="@+id/button4"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Sausuage" />
 
-                <Button
-                    android:id="@+id/button4"
-                    style="?android:attr/buttonStyleSmall"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/Sausuage" />
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eggs" />
 
-                <Button
-                    android:id="@+id/button1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/eggs" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Bacon" />
 
-                <ImageButton
-                    android:id="@+id/imageButton1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@android:drawable/btn_star" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/breakfast"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
-                <ImageView
-                    android:id="@+id/imageView1"
-                    android:layout_width="match_parent"
-                    android:layout_height="84dp"
-                    android:src="@drawable/eggs" />
+        </LinearLayout>
 
-                <HorizontalScrollView
-                    android:id="@+id/horizontalScrollView1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal" >
-                    </LinearLayout>
-                </HorizontalScrollView>
-
-            </LinearLayout>
-        </HorizontalScrollView>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0.49" >
 
@@ -130,18 +107,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/hamburger" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button" />
-
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button" />
 
         <Button
             android:id="@+id/button8"
