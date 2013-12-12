@@ -34,19 +34,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class drawable {
         public static final int bacon=0x7f020000;
         public static final int burger=0x7f020001;
-        public static final int clubsandwich=0x7f020002;
-        public static final int coffee=0x7f020003;
-        public static final int eggs=0x7f020004;
-        public static final int focus=0x7f020005;
-        public static final int focus123=0x7f020006;
-        public static final int fried_rice=0x7f020007;
-        public static final int friez=0x7f020008;
-        public static final int ic_launcher=0x7f020009;
-        public static final int lunchsandwhich=0x7f02000a;
-        public static final int pizza=0x7f02000b;
-        public static final int sausage=0x7f02000c;
-        public static final int soda=0x7f02000d;
-        public static final int toast=0x7f02000e;
+        public static final int chicken_wings=0x7f020002;
+        public static final int clubsandwich=0x7f020003;
+        public static final int coffee=0x7f020004;
+        public static final int eggs=0x7f020005;
+        public static final int focus=0x7f020006;
+        public static final int focus123=0x7f020007;
+        public static final int fried_rice=0x7f020008;
+        public static final int friez=0x7f020009;
+        public static final int ic_launcher=0x7f02000a;
+        public static final int lunchsandwhich=0x7f02000b;
+        public static final int pizza=0x7f02000c;
+        public static final int sausage=0x7f02000d;
+        public static final int soda=0x7f02000e;
+        public static final int toast=0x7f02000f;
     }
     public static final class id {
         public static final int BLT=0x7f090009;
@@ -59,30 +60,28 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int MysteryNoodles=0x7f09000f;
         public static final int Sausage=0x7f09000a;
         public static final int Toast=0x7f090008;
-        public static final int action_settings=0x7f090021;
+        public static final int action_settings=0x7f09001f;
         public static final int button10=0x7f090012;
-        public static final int button11=0x7f090015;
-        public static final int button12=0x7f090016;
-        public static final int button13=0x7f090017;
-        public static final int button14=0x7f090019;
-        public static final int button15=0x7f09001a;
-        public static final int button16=0x7f09001b;
-        public static final int button8=0x7f090013;
-        public static final int button9=0x7f090011;
-        public static final int dummy_button=0x7f09001f;
+        public static final int button11=0x7f090014;
+        public static final int button12=0x7f090015;
+        public static final int button13=0x7f090016;
+        public static final int button14=0x7f090011;
+        public static final int button15=0x7f090018;
+        public static final int button16=0x7f090019;
+        public static final int dummy_button=0x7f09001d;
         public static final int editText1=0x7f090002;
         public static final int editText2=0x7f090003;
         public static final int editText3=0x7f090005;
         public static final int editText4=0x7f090007;
-        public static final int fullscreen_content=0x7f09001d;
-        public static final int fullscreen_content_controls=0x7f09001e;
-        public static final int imageView1=0x7f090020;
+        public static final int fullscreen_content=0x7f09001b;
+        public static final int fullscreen_content_controls=0x7f09001c;
+        public static final int imageView1=0x7f09001e;
         public static final int textView1=0x7f090006;
         public static final int textView2=0x7f090004;
         public static final int textView3=0x7f090010;
-        public static final int textView4=0x7f090014;
-        public static final int textView5=0x7f090018;
-        public static final int textView6=0x7f09001c;
+        public static final int textView4=0x7f090013;
+        public static final int textView5=0x7f090017;
+        public static final int textView6=0x7f09001a;
     }
     public static final class layout {
         public static final int activity_done_menu=0x7f030000;
@@ -116,6 +115,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int dummy_content=0x7f06001c;
         public static final int eggs=0x7f060004;
         public static final int finfries=0x7f06000b;
+        public static final int fried_rice=0x7f060020;
         public static final int hamburger=0x7f06000d;
         public static final int hello_world=0x7f060002;
         public static final int icecream=0x7f060010;

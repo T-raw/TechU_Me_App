@@ -71,7 +71,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+    	android:layout_width="wrap_content"
         android:layout_height="200dp" >
 
         <Button
@@ -91,10 +91,10 @@
         <Button
             android:id="@+id/MysteryNoodles"
             style="?android:attr/buttonStyleSmall"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
             android:background="@drawable/fried_rice"
-            android:text="@string/mysterynoodles" />
+            android:text="@string/fried_rice" />
 
         <TextView
             android:id="@+id/textView3"
@@ -109,22 +109,18 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/button14"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:background="@drawable/chicken_wings"
             android:text="@string/chknwngz" />
 
         <Button
             android:id="@+id/button10"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="95dp"
+            android:background="@drawable/burger"
             android:text="@string/hamburger" />
-
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/rice" />
 
         <TextView
             android:id="@+id/textView4"
@@ -168,12 +164,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
-
-        <Button
-            android:id="@+id/button14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/chknwngz" />
 
         <Button
             android:id="@+id/button15"
