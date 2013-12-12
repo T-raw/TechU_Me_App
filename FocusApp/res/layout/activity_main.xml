@@ -24,34 +24,34 @@
             android:orientation="horizontal" >
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/Toast"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:background="@drawable/toast" />
+                android:background="@drawable/toast" 
+                android:onClick="ButtonClick"/>
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/BLT"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:background="@drawable/clubsandwich" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/Sausage"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_weight="80dp"
                 android:background="@drawable/sausage" />
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/Eggs"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:background="@drawable/eggs" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/Bacon"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:background="@drawable/bacon" />
@@ -59,7 +59,7 @@
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="37dp"
                 android:text="@string/Breakfast" />
         </LinearLayout>
 
@@ -70,30 +70,23 @@
         android:layout_height="200dp" >
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/ClubSandwich"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@drawable/lunchsandwhich" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/FrenchFries"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@drawable/friez" />
 
         <Button
-            android:id="@+id/button17"
+            android:id="@+id/MysteryNoodles"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@drawable/fried_rice" />
-
-        <Button
-            android:id="@+id/button18"
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:text="@string/finfries" 
-            android:layout_height="wrap_content"/>
 
         <TextView
             android:id="@+id/textView3"
