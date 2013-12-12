@@ -119,6 +119,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int hamburger=0x7f06000d;
         public static final int hello_world=0x7f060002;
         public static final int icecream=0x7f060010;
+        public static final int mysterynoodles=0x7f06001f;
         public static final int nachos=0x7f060012;
         public static final int rice=0x7f06000e;
         public static final int shrimp=0x7f060013;

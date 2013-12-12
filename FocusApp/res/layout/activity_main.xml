@@ -28,33 +28,38 @@
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:background="@drawable/toast" 
-                android:onClick="ButtonClick"/>
+                android:background="@drawable/toast"
+                android:onClick="ButtonClick"
+                android:text="@string/Toast" />
 
             <Button
                 android:id="@+id/BLT"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:background="@drawable/clubsandwich" />
+                android:background="@drawable/clubsandwich"
+                android:text="@string/BLT" />
 
             <Button
                 android:id="@+id/Sausage"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:background="@drawable/sausage" />
+                android:background="@drawable/sausage"
+                android:text="@string/Sausuage" />
 
             <Button
                 android:id="@+id/Eggs"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:background="@drawable/eggs" />
+                android:background="@drawable/eggs"
+                android:text="@string/eggs" />
 
             <Button
                 android:id="@+id/Bacon"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:background="@drawable/bacon" />
+                android:background="@drawable/bacon"
+                android:text="@string/Bacon" />
 
             <TextView
                 android:id="@+id/textView1"
@@ -73,20 +78,23 @@
             android:id="@+id/ClubSandwich"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:background="@drawable/lunchsandwhich" />
+            android:background="@drawable/lunchsandwhich"
+            android:text="@string/Cbsandwich" />
 
         <Button
             android:id="@+id/FrenchFries"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:background="@drawable/friez" />
+            android:background="@drawable/friez"
+            android:text="@string/finfries" />
 
         <Button
             android:id="@+id/MysteryNoodles"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:background="@drawable/fried_rice" />
+            android:background="@drawable/fried_rice"
+            android:text="@string/mysterynoodles" />
 
         <TextView
             android:id="@+id/textView3"
