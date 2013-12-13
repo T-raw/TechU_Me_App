@@ -26,38 +26,38 @@
             <Button
                 android:id="@+id/Toast"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="86dp"
+                android:layout_height="86dp"
                 android:background="@drawable/toast"
                 android:onClick="ButtonClick"
                 android:text="@string/Toast" />
 
             <Button
                 android:id="@+id/BLT"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="86dp"
+                android:layout_height="86dp"
                 android:background="@drawable/clubsandwich"
                 android:text="@string/BLT" />
 
             <Button
                 android:id="@+id/Sausage"
                 style="?android:attr/buttonStyleSmall"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="86dp"
+                android:layout_height="86dp"
                 android:background="@drawable/sausage"
                 android:text="@string/Sausuage" />
 
             <Button
                 android:id="@+id/Eggs"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="86dp"
+                android:layout_height="86dp"
                 android:background="@drawable/eggs"
                 android:text="@string/eggs" />
 
             <Button
                 android:id="@+id/Bacon"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="86dp"
+                android:layout_height="86dp"
                 android:background="@drawable/bacon"
                 android:text="@string/Bacon" />
 
@@ -71,28 +71,28 @@
     </LinearLayout>
 
     <LinearLayout
-    	android:layout_width="wrap_content"
-        android:layout_height="200dp" >
+        android:layout_width="wrap_content"
+        android:layout_height="96dp" >
 
         <Button
             android:id="@+id/ClubSandwich"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
             android:background="@drawable/lunchsandwhich"
             android:text="@string/Cbsandwich" />
 
         <Button
             android:id="@+id/FrenchFries"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
             android:background="@drawable/friez"
             android:text="@string/finfries" />
 
         <Button
             android:id="@+id/MysteryNoodles"
             style="?android:attr/buttonStyleSmall"
-            android:layout_width="match_parent"
-            android:layout_height="69dp"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
             android:background="@drawable/fried_rice"
             android:text="@string/fried_rice" />
 
@@ -110,15 +110,15 @@
 
         <Button
             android:id="@+id/button14"
-            android:layout_width="100dp"
-            android:layout_height="90dp"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
             android:background="@drawable/chicken_wings"
             android:text="@string/chknwngz" />
 
         <Button
             android:id="@+id/button10"
-            android:layout_width="wrap_content"
-            android:layout_height="95dp"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
             android:background="@drawable/burger"
             android:text="@string/hamburger" />
 
@@ -128,6 +128,7 @@
             android:layout_height="wrap_content"
             android:text="Dinner"
             android:textAppearance="?android:attr/textAppearanceLarge" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -136,20 +137,23 @@
 
         <Button
             android:id="@+id/button11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:background="@drawable/cake"
             android:text="@string/cake" />
 
         <Button
             android:id="@+id/button12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:background="@drawable/ice_cream"
             android:text="@string/icecream" />
 
         <Button
             android:id="@+id/button13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:background="@drawable/brownies"
             android:text="@string/brownie" />
 
         <TextView
@@ -167,23 +171,37 @@
 
         <Button
             android:id="@+id/button15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:background="@drawable/nachos"
             android:text="@string/nachos" />
 
         <Button
             android:id="@+id/button16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:background="@drawable/shrimp"
             android:text="@string/shrimp" />
 
-    	<TextView
+        <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Appetizers"
             android:textAppearance="?android:attr/textAppearanceLarge" />
-    	
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/paynow" />
+
+        </LinearLayout>
     </LinearLayout>
 
     </LinearLayout>
