@@ -109,14 +109,14 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button14"
+            android:id="@+id/Wings"
             android:layout_width="86dp"
             android:layout_height="86dp"
             android:background="@drawable/chicken_wings"
             android:text="@string/chknwngz" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/Hamburger"
             android:layout_width="86dp"
             android:layout_height="86dp"
             android:background="@drawable/burger"
@@ -136,21 +136,21 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/Cake"
             android:layout_width="86dp"
             android:layout_height="86dp"
             android:background="@drawable/cake"
             android:text="@string/cake" />
 
         <Button
-            android:id="@+id/button12"
+            android:id="@+id/IceCream"
             android:layout_width="86dp"
             android:layout_height="86dp"
             android:background="@drawable/ice_cream"
             android:text="@string/icecream" />
 
         <Button
-            android:id="@+id/button13"
+            android:id="@+id/Brownie"
             android:layout_width="86dp"
             android:layout_height="86dp"
             android:background="@drawable/brownies"
@@ -170,14 +170,14 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/button15"
+            android:id="@+id/Nachos"
             android:layout_width="86dp"
             android:layout_height="86dp"
             android:background="@drawable/nachos"
             android:text="@string/nachos" />
 
         <Button
-            android:id="@+id/button16"
+            android:id="@+id/Shrimp"
             android:layout_width="86dp"
             android:layout_height="86dp"
             android:background="@drawable/shrimp"
