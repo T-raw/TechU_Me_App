@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 	public double totalCost=0;
 	@Override
+	//Creating Variables and Listeners for buttons
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
@@ -50,18 +51,46 @@ public class MainActivity extends Activity {
 	public class ButtonClick implements OnClickListener{
 
 		@Override
+		//Creating values for the items to be added to the total
 		public void onClick(View v) {
 			// TODO Auto-generated method stub
 			Button clicked=(Button) v;
 			if (clicked.getId()==R.id.Eggs){
-				totalCost+=2.5;
-				
+				totalCost+=2.5;}
+				else if (clicked.getId()==R.id.Bacon){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.BLT){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.Sausage){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.Toast){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.ClubSandwich){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.FrenchFries){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.MysteryNoodles){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.Wings){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.Hamburger){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.Cake){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.IceCream){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.Brownie){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.Nachos){
+					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.Shrimp){
+					totalCost+=2.5;}
 				System.out.println(totalCost);
 			}
 			
 		}
 		
-	}
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
