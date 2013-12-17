@@ -1,7 +1,9 @@
+
 package com.example.focusapp;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -85,6 +87,10 @@ public class MainActivity extends Activity {
 					totalCost+=2.5;}
 				else if (clicked.getId()==R.id.Shrimp){
 					totalCost+=2.5;}
+				else if (clicked.getId()==R.id.button1){
+					Intent newActivity=new Intent(getApplicationContext(),DoneMenu.class);
+					startActivity(newActivity);
+				}
 				System.out.println(totalCost);
 			}
 			
